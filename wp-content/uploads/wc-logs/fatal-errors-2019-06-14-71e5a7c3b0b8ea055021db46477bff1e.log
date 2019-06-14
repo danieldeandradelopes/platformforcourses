@@ -1,0 +1,18 @@
+2019-06-14T13:41:47+00:00 CRITICAL Uncaught Exception: Pedido inválido. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\academy\framework\classes\themex.woo.php(215): WC_Abstract_Order->__construct(2157)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\academy\woocommerce\checkout\form-checkout.php(8): ThemexWoo::getRelatedPost(2157, Array, true)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(285): wc_get_template('checkout/for, em C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php, na linha 101
+
+2019-06-14T13:43:55+00:00 CRITICAL Uncaught Exception: Pedido inválido. in C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php:101
+Stack trace:
+#0 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\class-wc-data-store.php(159): Abstract_WC_Order_Data_Store_CPT->read(Object(WC_Order))
+#1 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\abstracts\abstract-wc-order.php(111): WC_Data_Store->read(Object(WC_Order))
+#2 C:\xampp\htdocs\wordpress\wp-content\themes\academy\framework\classes\themex.woo.php(215): WC_Abstract_Order->__construct(2157)
+#3 C:\xampp\htdocs\wordpress\wp-content\themes\academy\woocommerce\checkout\form-checkout.php(8): ThemexWoo::getRelatedPost(2157, Array, true)
+#4 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\wc-core-functions.php(249): include('C:\\xampp\\htdocs...')
+#5 C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\shortcodes\class-wc-shortcode-checkout.php(285): wc_get_template('checkout/for, em C:\xampp\htdocs\wordpress\wp-content\plugins\woocommerce\includes\data-stores\abstract-wc-order-data-store-cpt.php, na linha 101
+
